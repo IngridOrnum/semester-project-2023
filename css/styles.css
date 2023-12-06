@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400&display=swap');
+
 :root {
     --primary-color: #6867CF;
     --secondary-color: #FDFDFD;
@@ -6,6 +8,12 @@
     --events-color: #DC47BD;
     --plan-visit-color: #FF527F;
     --about-color: #DF9506;
+}
+
+/*GAP, SPACING AND PADDING*/
+
+body {
+    margin: 0;
 }
 
 /*TYPOGRAPHY*/
@@ -28,5 +36,35 @@
 
 /*HEADER*/
 
+.header {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 16px 42px;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo-img {
+    width: 46px;
+    height: 46px;
+}
+
+.logo-text {
+    font-family: "IBM Plex Mono", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: var(--secondary-color);
+    padding-left: 12px;
+    width: 168px;
+}
+
+.burger-menu {
+    background-color: var(--primary-color);
+    border-style: none;
+}
 
 /*FOOTER*/
