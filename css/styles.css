@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400&family=Saira:wght@200;300;400;500&display=swap');
 
 :root {
     --primary-color: #6867CF;
@@ -16,22 +16,77 @@ body {
     margin: 0;
 }
 
+.page-content {
+    margin: 24px;
+}
+
 /*TYPOGRAPHY*/
 
-.h1-heading {
+.text-content, .homepage-text {
+    font-family: "Saira", sans-serif;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 300;
+    color: var(--tertiary-color);
+    text-align: center;
+    line-height: 200%;
+}
 
+.h1-heading, .h2-heading {
+    font-family: "Saira", sans-serif;
+    color: var(--tertiary-color);
+    font-weight: 400;
+    text-align: center;
+    font-size: 28px;
+}
+
+.icon-and-h1 {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+}
+
+.paragraph-h1 {
+    margin: 12px 0 24px 0;
 }
 
 /*BUTTONS*/
 
-.button {
+.button-universal {
+    height: 44px;
+    width: 260px;
+    box-shadow: 4px 6px var(--tertiary-color);
+    border-radius: 8px;
+    border: 4px solid var(--tertiary-color);
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 400;
+    line-height: 170%;
+}
 
+.button-universal:hover {
+    background-color: var(--secondary-color);
+    color: var(--tertiary-color);
+    box-shadow: 0 0;
 }
 
 /*LINE DIVIDERS*/
 
-.line-divider-mobile {
+.line-divider {
+    background-color: var(--tertiary-color);
+    height: 4px;
+    width: auto;
+    margin: 24px;
+}
 
+/*OTHER DESIGN*/
+
+.box-shadow {
+    border-radius: 8px;
+    box-shadow: 4px 6px var(--tertiary-color);
+    border: 4px solid var(--tertiary-color);
+    color: var(--secondary-color);
 }
 
 /*HEADER*/
@@ -41,11 +96,12 @@ body {
     display: flex;
     justify-content: space-between;
     margin: 0;
-    padding: 16px 42px;
+    padding: 16px 24px;
 }
 
 .logo {
     display: flex;
+    align-items: center;
 }
 
 .logo-img {
@@ -65,6 +121,147 @@ body {
 .burger-menu {
     background-color: var(--primary-color);
     border-style: none;
+    padding: 0;
 }
 
+#burger-menu-img {
+    height: 32px;
+    width: 38px;
+}
+
+/*DROPDOWN MENU */
+
+/*.dropdown-menu {*/
+/*   position: absolute;*/
+/*   z-index: 1;*/
+/*   padding: 0;*/
+/*   margin: 0;*/
+/*   background-color: var(--secondary-color);*/
+/*   height: 100%;*/
+/*   width: 100%;*/
+/*}*/
+
+/*.dropdown-menu-text {*/
+/*    font-family: "Saira", sans-serif;*/
+/*    font-weight: 300;*/
+/*    list-style: none;*/
+/*    text-align: center;*/
+/*    font-size: 24px;*/
+/*}*/
+
+/*.dropdown-menu-text li {*/
+/*    margin-bottom: 42px;*/
+/*}*/
+
+/*.dropdown-menu-text a {*/
+/*    text-decoration: none;*/
+/*    color: var(--primary-color);*/
+/*}*/
+
+/*.dropdown-menu-text a:hover {*/
+/*    font-weight: 500;*/
+/*}*/
+
+
+
+/*.dropdown-menu-text li:nth-child(1) {*/
+/*    margin-top: 82px;*/
+/*}*/
+
+/*.fa-x {*/
+/*    color: var(--tertiary-color);*/
+/*    position: absolute;*/
+/*    top: 132px;*/
+/*    right: 42px;*/
+/*}*/
+
+
+
 /*FOOTER*/
+
+.footer {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.footer-text {
+    font-family: "Saira", sans-serif;
+    font-size: 24px;
+    font-weight: 200;
+    list-style: none;
+    padding: 0;
+}
+
+.footer-text-header {
+    font-weight: 400;
+    margin-left: 24px;
+}
+
+.footer-text li {
+    margin-bottom: 24px;
+}
+
+.copyright {
+    font-family: "IBM Plex Mono", sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    margin: 42px 24px;
+    text-align: center;
+}
+
+.footer-icon-mobile {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-heading-icon {
+    display: flex;
+    align-items: center;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-footer {
+    margin-top: 42px;
+}
+
+.footer-div-links {
+    text-align: center;
+}
+
+
+/*HERO*/
+
+.hero-mobile {
+    height: auto;
+    width: 100%;
+}
+
+@media (min-width: 740px) {
+
+    .h1-heading {
+        font-size: 40px;
+    }
+
+    .paragraph-h1 {
+        font-size: 20px;
+        /*margin-bottom: 62px;*/
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    .h1-heading {
+        font-size: 50px;
+    }
+
+    .paragraph-h1 {
+        font-size: 20px;
+    }
+
+}
