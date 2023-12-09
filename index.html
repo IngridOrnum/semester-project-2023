@@ -7,9 +7,176 @@
           name="description">
     <meta content=""
           name="keywords">
-    <title>Title</title>
+    <title>Community Science Museum</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+    <link href="css/homepage.css" rel="stylesheet" type="text/css"/>
+    <script src="https://kit.fontawesome.com/eaf3f254a9.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
+<header>
+    <div class="header">
+        <div class="logo">
+            <img alt="logo of the community science museum" class="logo-img" src="assets/science.png"/>
+            <div class="logo-text">Community Science Museum</div>
+        </div>
+        <div class="header-mobile">
+            
+            <!--    DROPDOWN MENU -->
+            <div class="dropdown-menu">
+                <input type="checkbox" id="checkbox-toggle">
+                <label for="checkbox-toggle" class="dropdown-btn">
+                    <img alt="burger-menu" id="burger-menu-img" src="assets/mobile/mobile-icons/burger-menu.png">
+                </label>
+                <div class="dropdown-content">
+<!--                <input type="" id="checkbox-x">-->
+<!--                <label for="checkbox-x">-->
+<!--                    <i class="fa-solid fa-x fa-2xl"></i>-->
+<!--                </label>-->
+                <nav>
+                    <ul class="dropdown-menu-text">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="exhibitions.html">Exhibitions</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="plan-your-visit.html">Plan your visit</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </nav>
+                </div>
+            </div>
+<!--            <div class="dropdown-menu">-->
+<!--                <div class="dropdown-btn"><i class="fa-solid fa-x fa-2xl"></i></div>-->
+<!--                <ul class="dropdown-menu-text">-->
+<!--                    <li><a href="index.html">Home</a></li>-->
+<!--                    <li><a href="exhibitions.html">Exhibitions</a></li>-->
+<!--                    <li><a href="events.html">Events</a></li>-->
+<!--                    <li><a href="plan-your-visit.html">Plan your visit</a></li>-->
+<!--                    <li><a href="about.html">About</a></li>-->
+<!--                </ul>-->
+<!--            </div>-->
+        </div>
+        <div class="header-desktop">
+            <nav class="text-content nav-links-desktop">
+                <span><a href="index.html">Home</a></span>
+                <span><a href="exhibitions.html">Exhibitions</a></span>
+                <span><a href="events.html">Events</a></span>
+                <span><a href="plan-your-visit.html">Plan your visit</a></span>
+                <span><a href="about.html">About</a></span>
+            </nav>
+        </div>
+    </div>
+
+</header>
+    
+    <main>
+        
+        <div class="homepage-hero">
+            <div class="homepage-hero-img"><div class="hero-text-box text-content">
+                Welcome to Community Science Museum
+            </div></div>
+            
+        </div>
+        
+        <div class="line-divider"></div>
+        
+        <section class="section-buttons-explore">
+            <h1 class="h1-heading homepage-text">What do you want to explore next?</h1>
+        <button role="button" class="home-button-categories home-button-exhibitions">
+            <img src="assets/mobile/mobile-icons/mobile-exhibitions-60px.png"/>
+            <span>Exhibitions</span>
+        </button>
+            
+            <button role="button" class="home-button-categories home-button-events">
+                <img src="assets/mobile/mobile-icons/mobile-events-60px.png"/>
+                <span>Events</span>
+            </button>
+            
+            <button role="button" class="home-button-categories home-button-plan-visit">
+                <img src="assets/mobile/mobile-icons/mobile-planvisit-60px.png"/>
+                <span>Plan your visit</span>
+            </button>
+           
+            <button role="button" class="home-button-categories home-button-about">
+                <img src="assets/mobile/mobile-icons/mobile-about-60px.png"/>
+                <span>Abouts</span>
+            </button>
+        </section>
+        
+        <div class="line-divider"></div>
+        
+        <form class="newsletter-signup">
+            <h2 class=" h2-heading text-content homepage-text">Join our newsletter</h2>
+            <p class="text-content homepage-text">
+                Sign up for our weekly update, so you don´t miss out on anything!
+            </p>
+            <div class="form-email-colum">
+                <label for="email"></label>
+                <input id="email" name="email" placeholder="Email address" type="text" required>
+            </div>
+            <input class="button-universal button-homepage text-content" type="submit" value="Sign me up">
+        </form>
+        
+        <div class="line-divider"></div>
+        
+    </main>
+    
+    <footer class="footer">
+    <div class="footer-opening-hours footer-section">
+    <div class="footer-heading-icon">
+        <img src="assets/mobile/mobile-icons/mobile-footer-clock-40px.png" alt="clock icon"/>
+        <span class="footer-text footer-text-header">Opening hours</span>
+    </div>
+        <ul class="footer-text">
+            <li>Mon: Closed</li>
+            <li>Tue-Thu: 10:00 - 16:00</li>
+            <li>Fri: 10:00 - 19:00</li>
+            <li>Sat: 09:00 - 16:00</li>
+            <li>Sun: 09:00 - 13:00</li>
+        </ul>
+    </div>
+    
+    <div class="footer-location footer-section">
+        <div class="footer-heading-icon">
+            <img class="footer-icon-mobile" src="assets/mobile/mobile-icons/mobile-footer-location-40px.png" alt="location icon"/>
+            <span class="footer-text footer-text-header">Location</span>
+        </div>
+        <ul class="footer-text">
+            <li>Slottsplassen 1</li>
+            <li>0010 Oslo</li>
+        </ul>
+    </div>
+    
+    <div class="contact footer-section">
+        <div class="footer-heading-icon">
+            <img src="assets/mobile/mobile-icons/mobile-footer-contact-40px.png">
+            <span class="footer-text footer-text-header">Contact</span>
+        </div>
+        <ul class="footer-text">
+            <li>+47 112 23 344</li>
+            <li>0010 Oslo</li>
+        </ul>
+    </div>
+    
+    <div class="footer-section">
+        <ul class="footer-text footer-div-links">
+            <li>Cookie preferences</li>
+            <li>Terms of service</li>
+            <li>Privacy</li>
+            <li>About</li>
+        </ul>
+    </div>
+    
+    <div class="line-divider"></div>
+    
+    <div class="footer-section">
+    <div class="logo logo-footer">
+        <img class="logo-img" src="assets/science.png" alt="logo of the community science museum"/>
+        <div class="logo-text">Community Science Museum</div>
+    </div>
+    
+    <div class="copyright footer-text">&copy; Community Science Museum, All rights reserved.</div>
+    </div>
+    
+</footer>
 </body>
 </html>

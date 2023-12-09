@@ -1,0 +1,158 @@
+
+body {
+    background-color: var(--primary-color);
+}
+
+.homepage-text {
+    color: var(--secondary-color);
+    text-align: center;
+}
+
+.homepage-hero {
+    height: 460px;
+    display: flex;
+    /*flex-direction: column;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}
+
+.homepage-hero-img {
+    background-image: url("../assets/desktop/homepage/desktop-hero-homepage.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 460px;
+    width: 100%;
+    background-size: cover;
+}
+
+/*background-size: 100%;*/
+/*height: 500px;*/
+/*width: 100%;*/
+/*z-index: -1;*/
+/*position: absolute;*/
+/*background-repeat: no-repeat;*/
+/*top: 76px;*/
+
+.hero-text-box {
+    border-radius: 8px;
+    border: 4px solid var(--tertiary-color);
+    background-color: var(--plan-visit-color);
+    width: 326px;
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 24px 8px;
+    margin-top: 142px;
+    box-shadow: 4px 8px 40px var(--secondary-color);
+}
+
+.line-divider {
+    margin-top: 24px;
+}
+
+.section-buttons-explore {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.h1-heading, .h2-heading {
+    color: var(--secondary-color);
+}
+
+.home-button-categories {
+    width: 326px;
+    height: 106px;
+    border-radius: 8px;
+    border: 4px solid var(--tertiary-color);
+    box-shadow: 2px 6px var(--tertiary-color);
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-top: 24px;
+    color: var(--secondary-color);
+    font-family: "Saira", sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    padding: 0 24px;
+}
+
+.home-button-categories:hover {
+    background-color: var(--secondary-color);
+    color: var(--tertiary-color);
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0 0;
+}
+
+.home-button-exhibitions {
+    background-color: var(--exhibitions-color);
+}
+
+.home-button-events {
+    background-color: var(--events-color);
+}
+
+.home-button-plan-visit {
+    background-color: var(--plan-visit-color);
+}
+
+.home-button-about {
+    background-color: var(--about-color);
+}
+
+/*NEWSLETTER SIGNUP*/
+
+.newsletter-signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 42px;
+}
+
+.form-email-colum input {
+    height: 36px;
+    width: 300px;
+    border-radius: 8px;
+    border: 4px solid var(--tertiary-color);
+    box-shadow: 4px 6px var(--tertiary-color);
+    font-family: "Saira", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 8px;
+    color: var(--tertiary-color);
+}
+
+.button-homepage {
+    background-color: var(--secondary-color);
+}
+
+.button-homepage:hover {
+    box-shadow: 0 0;
+}
+
+@media (min-width: 626px) {
+    .homepage-hero {
+        height: 660px;
+        display: flex;
+    }
+
+    .homepage-hero-img {
+        height: auto;
+        background-size: 100%;
+    }
+
+}
+
+
+/* Tablet */
+@media (min-width: 1024px) {
+}
+
+/* Desktop */
+@media (min-width: 1512px) {
+}

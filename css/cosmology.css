@@ -1,0 +1,146 @@
+
+.space-facts-card {
+    background-color: var(--exhibitions-color);
+    padding: 24px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.space-facts-card ol {
+    padding-left: 24px;
+    line-height: 42px;
+    margin-bottom: 0;
+
+}
+
+.facts-card-heading {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.paragraph-line-divider-cosmology {
+    display: flex;
+    width: 280px;
+    justify-content: center;
+}
+
+.line-divider-cosmology {
+    height: auto;
+    width: 4px;
+    background-color: var(--exhibitions-color);
+}
+
+.paragraph-and-img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-img-paragraph-cos {
+    display: flex;
+    flex-direction: column;
+    margin: 42px 0;
+    gap: 42px;
+}
+
+.text-content-cos {
+    text-align: left;
+    width: 420px;
+    padding-left: 12px;
+    margin: 0;
+}
+
+
+@media (min-width: 700px) {
+
+    .icon-and-h1 {
+        justify-content: left;
+        margin-left: 24px;
+    }
+
+    .paragraph-and-facts {
+        display: flex;
+        gap: 12px;
+    }
+
+    .paragraph-line-divider-cosmology {
+        width: 300px;
+    }
+
+    .paragraph-h1 {
+        margin: 0;
+    }
+
+    .paragraph-h1 p {
+        margin: 0;
+        padding: 12px;
+        text-align: left;
+    }
+
+    .space-facts-card {
+        min-width: 280px;
+        height: 360px;
+    }
+
+   .paragraph-and-img {
+       gap: 8%;
+       margin-top: 8%
+   }
+
+   .paragraph-and-img:nth-child(2) {
+       flex-direction: row-reverse;
+   }
+
+}
+
+
+
+
+
+/* Tablet */
+@media (min-width: 1024px) {
+
+    .h1-heading {
+        font-size: 40px;
+    }
+
+    .space-facts-card {
+        height: 340px;
+        min-width: 360px;
+    }
+
+    .space-facts-card ol {
+        padding-left: 42px;
+        font-size: 20px;
+    }
+
+    .facts-card-heading {
+        font-size: 28px;
+    }
+
+    .paragraph-h1 p {
+        text-align: left;
+    }
+
+}
+
+
+@media (min-width: 1224px) {
+
+    .h1-heading {
+        font-size: 48px;
+    }
+
+    .facts-card-heading {
+
+    }
+}
+
+/* Desktop */
+@media (min-width: 1512px) {
+}

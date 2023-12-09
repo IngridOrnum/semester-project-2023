@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400&family=Saira:wght@200;300;400;500&display=swap');
+
 :root {
     --primary-color: #6867CF;
     --secondary-color: #FDFDFD;
@@ -8,25 +10,358 @@
     --about-color: #DF9506;
 }
 
+/*GAP, SPACING AND PADDING*/
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.page-content {
+    margin: 24px;
+}
+
 /*TYPOGRAPHY*/
 
-.h1-heading {
+.text-content, .homepage-text {
+    font-family: "Saira", sans-serif;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 300;
+    color: var(--tertiary-color);
+    text-align: center;
+    line-height: 200%;
+}
 
+.h1-heading, .h2-heading {
+    font-family: "Saira", sans-serif;
+    color: var(--tertiary-color);
+    font-weight: 400;
+    text-align: center;
+    font-size: 28px;
+}
+
+.icon-and-h1 {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+}
+
+.paragraph-h1 {
+    margin: 12px 0 24px 0;
 }
 
 /*BUTTONS*/
 
-.button {
+.button-universal {
+    height: 44px;
+    width: 260px;
+    box-shadow: 4px 6px var(--tertiary-color);
+    border-radius: 8px;
+    border: 4px solid var(--tertiary-color);
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 400;
+    line-height: 170%;
+}
 
+.button-universal:hover {
+    background-color: var(--secondary-color);
+    color: var(--tertiary-color);
+    box-shadow: 0 0;
 }
 
 /*LINE DIVIDERS*/
 
-.line-divider-mobile {
+.line-divider {
+    background-color: var(--tertiary-color);
+    height: 4px;
+    width: auto;
+    margin: 24px;
+}
 
+/*OTHER DESIGN*/
+
+.box-shadow {
+    border-radius: 8px;
+    box-shadow: 4px 6px var(--tertiary-color);
+    border: 4px solid var(--tertiary-color);
+    color: var(--secondary-color);
 }
 
 /*HEADER*/
 
+.header {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 16px 24px;
+}
+
+.header-desktop {
+    display: none;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    width: 46px;
+    height: 46px;
+}
+
+.logo-text {
+    font-family: "IBM Plex Mono", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: var(--secondary-color);
+    padding-left: 12px;
+    width: 200px;
+}
+
+.burger-menu {
+    background-color: var(--primary-color);
+    border-style: none;
+    padding: 0;
+}
+
+#burger-menu-img {
+    height: 32px;
+    width: 38px;
+}
+
+/*DROPDOWN MENU */
+
+.dropdown-btn {
+    display: block;
+    cursor: pointer;
+    background-color: var(--primary-color);
+    border: none;
+    transition: all .6s cubic-bezier(.5, .1, 0, 1.2);
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+.dropdown-menu-text {
+    display: none;
+    max-height: 0;
+    overflow: hidden;
+    list-style: none;
+    transition: all 1s cubic-bezier(.325, 1, .22, 1);
+}
+
+.dropdown-menu-text li {
+   border-bottom: .18rem solid var(--tertiary-color);
+   color: var(--tertiary-color);
+    font-size: 18px;
+    padding: 8px 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li:last-of-type {
+    margin-bottom: .645rem;
+}
+
+nav li a {
+   font-family: "Saira", sans-serif;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+}
+
+input[type=checkbox]:checked ~ nav ul {
+    height: auto;
+    max-height: 12rem;
+    transition: all 1s cubic-bezier(.5, 1, .22, 1);
+}
+
+
+
+.fa-x {
+    /*position: ;*/
+}
+
+
+/*.dropdown-menu {*/
+/*   position: absolute;*/
+/*   z-index: 1;*/
+/*   padding: 0;*/
+/*   margin: 0;*/
+/*   background-color: var(--secondary-color);*/
+/*   height: 100%;*/
+/*   width: 100%;*/
+/*}*/
+
+/*.dropdown-menu-text {*/
+/*    font-family: "Saira", sans-serif;*/
+/*    font-weight: 300;*/
+/*    list-style: none;*/
+/*    text-align: center;*/
+/*    font-size: 24px;*/
+/*}*/
+
+/*.dropdown-menu-text li {*/
+/*    margin-bottom: 42px;*/
+/*}*/
+
+/*.dropdown-menu-text a {*/
+/*    text-decoration: none;*/
+/*    color: var(--primary-color);*/
+/*}*/
+
+/*.dropdown-menu-text a:hover {*/
+/*    font-weight: 500;*/
+/*}*/
+
+
+
+/*.dropdown-menu-text li:nth-child(1) {*/
+/*    margin-top: 82px;*/
+/*}*/
+
+/*.fa-x {*/
+/*    color: var(--tertiary-color);*/
+/*    position: absolute;*/
+/*    top: 132px;*/
+/*    right: 42px;*/
+/*}*/
+
+
 
 /*FOOTER*/
+
+.footer {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.footer-text {
+    font-family: "Saira", sans-serif;
+    font-size: 24px;
+    font-weight: 200;
+    list-style: none;
+    padding: 0;
+}
+
+.footer-text-header {
+    font-weight: 400;
+    margin-left: 24px;
+}
+
+.footer-text li {
+    margin-bottom: 24px;
+}
+
+.copyright {
+    font-family: "IBM Plex Mono", sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    margin: 42px 24px;
+    text-align: center;
+}
+
+.footer-icon-mobile {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-heading-icon {
+    display: flex;
+    align-items: center;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-footer {
+    margin-top: 42px;
+}
+
+.footer-div-links {
+    text-align: center;
+}
+
+
+/*HERO*/
+
+.hero-mobile {
+    height: auto;
+    width: 100%;
+}
+
+@media (min-width: 740px) {
+
+    .h1-heading {
+        font-size: 40px;
+    }
+
+    .paragraph-h1 {
+        font-size: 20px;
+        /*margin-bottom: 62px;*/
+    }
+
+
+
+
+}
+
+@media (min-width: 800px) {
+
+    /*HEADER*/
+    .header-mobile {
+        display: none;
+    }
+
+    .header-desktop {
+        display: block;
+        align-items: center;
+        width: 460px;
+    }
+
+    .nav-links-desktop {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header-desktop a {
+        text-decoration: none;
+        /*margin-left: 18px;*/
+        color: var(--secondary-color);
+        font-weight: 400;
+    }
+
+    .header-desktop a:hover {
+        color: var(--tertiary-color);
+        font-weight: 400;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    .h1-heading {
+        font-size: 50px;
+    }
+
+    .paragraph-h1 {
+        font-size: 20px;
+    }
+
+    .header-desktop {
+        width: 600px;
+    }
+
+}
