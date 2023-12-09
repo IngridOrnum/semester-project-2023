@@ -1,4 +1,27 @@
 
+.container-plan-visit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--plan-visit-color);
+    width: 326px;
+    position: relative;
+    padding: 24px;
+}
+
+.icon-container {
+    display: flex;
+    position: absolute;
+    top: 24px;
+    left: 24px;
+}
+
+.container-text {
+    list-style: none;
+    color: var(--secondary-color);
+    text-align: left;
+    padding: 0;
+}
 
 /* Tablet */
 @media (min-width: 1024px) {

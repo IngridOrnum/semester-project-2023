@@ -1,3 +1,25 @@
+
+.container-plan-visit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--plan-visit-color);
+    width: 326px;
+
+}
+
+.container-text {
+    list-style: none;
+    color: var(--secondary-color);
+    text-align: left;
+}
+
+.heading-container {
+    font-size: 24px;
+    font-weight: 400;
+}
+
 /* Tablet */
 @media (min-width: 1024px) {
 }
