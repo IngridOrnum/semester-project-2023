@@ -95,8 +95,13 @@ body {
     background-color: var(--primary-color);
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 0;
     padding: 16px 24px;
+}
+
+.header-desktop {
+    display: none;
 }
 
 .logo {
@@ -251,6 +256,36 @@ body {
         font-size: 20px;
         /*margin-bottom: 62px;*/
     }
+
+    /*HEADER*/
+
+    .header-mobile {
+        display: none;
+    }
+
+    .header-desktop {
+        display: block;
+        align-items: center;
+        width: 460px;
+    }
+
+    .nav-links-desktop {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header-desktop a {
+        text-decoration: none;
+        /*margin-left: 18px;*/
+        color: var(--secondary-color);
+        font-weight: 400;
+    }
+
+    .header-desktop a:hover {
+        color: var(--tertiary-color);
+        font-weight: 400;
+    }
+
 
 }
 
