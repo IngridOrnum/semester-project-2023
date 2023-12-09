@@ -1,5 +1,83 @@
+.h2-heading {
+    font-size: 24px;
+}
+
+.all-cards-events {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.events-card {
+    display: flex;
+    flex-direction: column;
+    border: 4px solid var(--tertiary-color);
+    border-radius: 8px;
+    width: 326px;
+    height: auto;
+    padding-bottom: 18px;
+    margin-bottom: 24px;
+}
+
+.img-events-card {
+    width: 100%;
+    height: auto;
+}
+
+.text-and-button-events-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.button-events {
+    color: var(--secondary-color);
+    background-color: var(--events-color);
+    width: 230px;
+}
+
+
+@media (min-width: 740px) {
+    .events-card {
+        flex-direction: row;
+        width: auto;
+        margin-bottom: 42px;
+    }
+
+    .text-and-button-events-card {
+        padding: 24px;
+    }
+
+    .button-events {
+        margin-top: 24px;
+    }
+
+    .paragraph-h1 {
+        text-align: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
 /* Tablet */
 @media (min-width: 1024px) {
+    .h2-heading {
+        font-size: 28px;
+    }
+
+    .events-card {
+        max-width: 1050px;
+    }
+
+    .all-cards-events {
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 /* Desktop */
