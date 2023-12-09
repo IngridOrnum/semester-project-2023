@@ -35,7 +35,7 @@
 
 .paragraph-and-img {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     gap: 24px;
     align-items: center;
     justify-content: center;
@@ -79,6 +79,7 @@
     .paragraph-h1 p {
         margin: 0;
         padding: 12px;
+        text-align: left;
     }
 
     .space-facts-card {
@@ -87,10 +88,6 @@
     }
 
    .paragraph-and-img {
-       display: flex;
-       flex-direction: row;
-       align-items: center;
-       justify-content: center;
        gap: 8%;
        margin-top: 8%
    }
