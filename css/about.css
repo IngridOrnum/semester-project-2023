@@ -1,27 +1,34 @@
 
-.container-plan-visit {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--plan-visit-color);
-    width: 326px;
-    position: relative;
-    padding: 24px;
-}
 
-.icon-container {
-    display: flex;
-    position: absolute;
-    top: 24px;
-    left: 24px;
-}
-
-.container-text {
-    list-style: none;
+.footer-text {
     color: var(--secondary-color);
     text-align: left;
-    padding: 0;
 }
+
+.footer-section {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    margin-left: 42px;
+}
+
+.footer-text {
+    margin: 0;
+    padding-left: 42px;
+}
+
+.icon-footer {
+    position: absolute;
+    top: 10px;
+}
+
+.footer-bottom {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 /* Tablet */
 @media (min-width: 1024px) {

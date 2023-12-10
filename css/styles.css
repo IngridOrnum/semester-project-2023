@@ -244,6 +244,10 @@ input[type=checkbox]:checked ~ nav ul {
 .footer {
     background-color: var(--primary-color);
     color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-text {
@@ -252,6 +256,7 @@ input[type=checkbox]:checked ~ nav ul {
     font-weight: 200;
     list-style: none;
     padding: 0;
+    margin-left: 120px;
 }
 
 .footer-text-header {
@@ -285,6 +290,9 @@ input[type=checkbox]:checked ~ nav ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 42px;
+    width: 340px;
+    padding-right: 30px;
 }
 
 .logo-footer {
@@ -292,7 +300,8 @@ input[type=checkbox]:checked ~ nav ul {
 }
 
 .footer-div-links {
-    text-align: center;
+   text-align: center;
+    margin: 0;
 }
 
 

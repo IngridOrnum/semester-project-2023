@@ -123,7 +123,11 @@
     <footer class="footer">
     <div class="footer-opening-hours footer-section">
     <div class="footer-heading-icon">
-        <img src="assets/mobile/mobile-icons/mobile-footer-clock-40px.png" alt="clock icon"/>
+        <picture>
+            <source media="(max-width: 1023px)" srcset="assets/mobile/mobile-icons/mobile-footer-clock-40px.png">
+            <source media="(max-width: 1023px)" srcset="assets/desktop/desktop-icons/desktop-icon-footer-clock-40px.png">
+            <img src="assets/mobile/mobile-icons/mobile-footer-clock-40px.png">
+        </picture>
         <span class="footer-text footer-text-header">Opening hours</span>
     </div>
         <ul class="footer-text">
