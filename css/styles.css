@@ -91,6 +91,37 @@
     color: var(--secondary-color);
 }
 
+/*NEWSLETTER SIGNUP*/
+
+.newsletter-signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    margin-bottom: 42px;
+}
+
+.form-email-colum input {
+    height: 44px;
+    width: 300px;
+    border-radius: 8px;
+    border: 4px solid var(--tertiary-color);
+    box-shadow: 4px 6px var(--tertiary-color);
+    font-family: "Saira", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 8px;
+    color: var(--tertiary-color);
+}
+
+.button-email {
+    background-color: var(--secondary-color);
+}
+
+.button-email:hover {
+    box-shadow: 0 0;
+}
+
 /*HEADER*/
 
 .header {

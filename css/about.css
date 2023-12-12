@@ -6,6 +6,7 @@
     flex-direction: column;
     align-items: center;
     gap: 24px;
+    margin: 42px 0;
 }
 
 .more-button-about {
@@ -17,20 +18,70 @@
     padding: 4px 12px;
     width: 100%;
     max-width: 800px;
+    cursor: pointer;
+    position: relative;
 }
 
-.arrow-down-more {
+#support-content {
+    display: none;
+}
+
+#support-arrow-icon {
     display: flex;
     align-items: center;
 }
+
+#volunteer-arrow-icon {
+    display: flex;
+    align-items: center;
+}
+   
+#volunteer-content {
+    display: none;
+}
+
+#internship-arrow-icon {
+   display: flex;
+    align-items: center;
+}
+
+#internship-content {
+    display: none;
+}
+
 
 .line-divider {
     margin: 24px 0;
 }
 
+/*MORE BUTTON*/
 
 
 
+/*.dropdown-content a {*/
+/*    padding: 12px 16px;*/
+/*    text-decoration: none;*/
+/*    display: block;*/
+/*    color: black;*/
+/*}*/
+
+
+.show {
+    display: block;
+}
+
+.hide{
+    display: none;
+}
+
+.rotate {
+    
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+       -ms-transform: rotate(180deg);
+      transition: all 400ms;
+
+    }
 
 
 
