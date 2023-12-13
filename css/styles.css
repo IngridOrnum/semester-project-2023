@@ -238,6 +238,7 @@
 
 .footer {
     background-color: var(--primary-color);
+    margin: 42px 0;
 }
 
 .footer-grid {
@@ -271,8 +272,6 @@
     padding-left: 26px;
 }
 
-
-
 .footer-text-header {
     font-weight: 500;
     padding: 0 50px 0 8px;
@@ -298,7 +297,10 @@
     color: var(--secondary-color);
 }
 
-
+.copyright {
+    margin: 24px 8px;
+    text-align: center;
+}
 
 
 
@@ -353,6 +355,17 @@
     .header-desktop a:hover {
         color: var(--tertiary-color);
         font-weight: 400;
+    }
+
+    .footer-grid {
+        display: flex;
+        justify-content: center;
+        gap: 42px;
+    }
+
+    .footer-div-links {
+        display: flex;
+        gap: 62px;
     }
 
 }
