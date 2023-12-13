@@ -1,4 +1,29 @@
 
+// HEADER
+
+document.getElementById("header-mobile").addEventListener("click", function () {
+    let dropdownContent = document.getElementById("dropdown-content");
+    let body = document.body;
+    let xBtn = document.getElementById("x-btn");
+    let burgerBtn = document.getElementById("burger-menu");
+
+    if (dropdownContent.style.display === "none" || dropdownContent.style.display === "") {
+    dropdownContent.style.display = "flex";
+    xBtn.style.display = "block";
+    burgerBtn.style.display = "none";
+    body.classList.add("menu-open");
+
+    } else {
+        dropdownContent.style.display = "none";
+        body.classList.remove("menu-open");
+        xBtn.style.display = "none";
+        burgerBtn.style.display = "block";
+    }
+});
+
+
+
+// ABOUT
 
 document.getElementById("support-toggle-btn").addEventListener("click", function (event) {
     let supportContent = document.getElementById("support-content");
