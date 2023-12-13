@@ -190,7 +190,6 @@
     height: 100vh;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     display: none;
 }
 
@@ -206,134 +205,34 @@
     display: none;
 }
 
+.dropdown-menu-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin-top: 42px;
+}
+
 .dropdown-menu-text li {
-   border-bottom: .18rem solid var(--tertiary-color);
+   border-bottom: 2px solid var(--tertiary-color);
    color: var(--tertiary-color);
-    font-size: 18px;
-    padding: 8px 0;
+    font-size: 22px;
+    padding: 1.5rem 0 8px 0;
     display: flex;
     justify-content: center;
+    font-family: "Saira", sans-serif;
+    text-decoration: none;
 }
 
-nav li:last-of-type {
-    margin-bottom: .5rem;
-}
-
-nav li a {
+.dropdown-menu-text li a {
    font-family: "Saira", sans-serif;
     text-decoration: none;
 }
 
-nav li a:hover {
+.dropdown-menu-text li a:hover {
     text-decoration: underline;
 }
-
-
-/*.dropdown-menu {*/
-/*   position: absolute;*/
-/*   z-index: 1;*/
-/*   padding: 0;*/
-/*   margin: 0;*/
-/*   background-color: var(--secondary-color);*/
-/*   height: 100%;*/
-/*   width: 100%;*/
-/*}*/
-
-/*.dropdown-menu-text {*/
-/*    font-family: "Saira", sans-serif;*/
-/*    font-weight: 300;*/
-/*    list-style: none;*/
-/*    text-align: center;*/
-/*    font-size: 24px;*/
-/*}*/
-
-/*.dropdown-menu-text li {*/
-/*    margin-bottom: 42px;*/
-/*}*/
-
-/*.dropdown-menu-text a {*/
-/*    text-decoration: none;*/
-/*    color: var(--primary-color);*/
-/*}*/
-
-/*.dropdown-menu-text a:hover {*/
-/*    font-weight: 500;*/
-/*}*/
-
-
-
-/*.dropdown-menu-text li:nth-child(1) {*/
-/*    margin-top: 82px;*/
-/*}*/
-
-/*.fa-x {*/
-/*    color: var(--tertiary-color);*/
-/*    position: absolute;*/
-/*    top: 132px;*/
-/*    right: 42px;*/
-/*}*/
-
-
-
-/*FOOTER*/
-
-/*.footer {*/
-/*    background-color: var(--primary-color);*/
-/*    color: var(--secondary-color);*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*}*/
-
-/*.footer-text {*/
-/*    font-family: "Saira", sans-serif;*/
-/*    font-size: 24px;*/
-/*    font-weight: 200;*/
-/*    list-style: none;*/
-/*    padding: 0;*/
-/*    margin-left: 120px;*/
-/*}*/
-
-/*.footer-text li {*/
-/*    margin-bottom: 12px;*/
-/*}*/
-
-/*.copyright {*/
-/*    font-family: "IBM Plex Mono", sans-serif;*/
-/*    font-weight: 200;*/
-/*    font-size: 20px;*/
-/*    margin: 42px 24px;*/
-/*    text-align: center;*/
-/*}*/
-
-/*.footer-icon-mobile {*/
-/*    width: 40px;*/
-/*    height: 40px;*/
-/*}*/
-
-/*.footer-heading-icon {*/
-/*    display: flex;*/
-/*    align-items: center;*/
-/*}*/
-
-/*.footer-section {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    align-items: center;*/
-/*    margin-top: 42px;*/
-/*    width: 340px;*/
-/*    padding-right: 30px;*/
-/*}*/
-
-/*.logo-footer {*/
-/*    margin-top: 42px;*/
-/*}*/
-
-/*.footer-div-links {*/
-/*   text-align: center;*/
-/*    margin: 0;*/
-/*}*/
 
 
 /*HERO*/

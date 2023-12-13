@@ -63,6 +63,10 @@ body {
     color: var(--secondary-color);
 }
 
+.h1-heading {
+    max-width: 360px;
+}
+
 .home-button-categories {
     width: 326px;
     height: 106px;
