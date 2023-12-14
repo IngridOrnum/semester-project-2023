@@ -22,7 +22,7 @@ body {
 }
 
 .hero-bg-blur {
-    background-color: #6867CF70;
+    background-color: #6867CF90;
     height: 100%;
     width: 100%;
     display: flex;
@@ -33,9 +33,8 @@ body {
 }
 
 .hero-heading {
-   font-size: 32px;
+    font-size: 32px;
     font-weight: 500;
-    /*width: 336px;*/
 }
 
 .hero-text {
@@ -62,7 +61,22 @@ body {
 
 .hero-button {
     margin: 24px 0;
-    width: 260px;
+    width: 240px;
+    animation-name: floating-button;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    color: var(--tertiary-color);
+}
+
+@keyframes floating-button {
+    from { transform: translate(0, 0px); }
+    65% { transform: translate(0, 6px); }
+    to { transform: translate(0, -0px); }
+}
+
+.fa-shuttle-space {
+    padding-left: 18px;
 }
 
 .section-buttons-explore {
@@ -109,6 +123,7 @@ body {
     font-weight: 500;
     cursor: pointer;
     box-shadow: 0 0;
+    transition: 1s;
 }
 
 .home-button-exhibitions {
@@ -131,7 +146,7 @@ body {
 
 @media (min-width: 626px) {
     .homepage-hero {
-        background-image: url("../assets/desktop/homepage/desktop-hp-hero.jpg");
+        background-image: url("../assets/desktop/homepage/desktop-homepage-hero.jpg");
         height: 680px;
     }
 
@@ -140,10 +155,34 @@ body {
         background-size: 100%;
     }
 
-    .h1-heading {
-        width: 100%;
+    .hero-text {
+        width: auto;
+        padding: 0 42px;
     }
 
+    .hero-heading {
+      font-size: 38px;
+        width: 500px;
+        margin-bottom: 24px;
+    }
+
+    .h1-heading {
+        width: 100%;
+        margin-top: 42px;
+    }
+
+    .hero-p {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .newsletter-signup {
+      margin: 42px 0 62px 0;
+    }
+
+    .section-buttons-explore {
+        margin-bottom: 62px;
+    }
 }
 
 @media (min-width: 740px) {
@@ -153,22 +192,64 @@ body {
     }
 
     .hero-heading {
-        font-size: 38px;
+        font-size: 40px;
+        width: auto;
+    }
+
+    .hero-p {
+        font-size: 24px;
     }
 
     .hero-text {
-        width: auto;
-        padding: 0 42px;
+        padding: 0 10%;
     }
-
 }
-
-
 
 /* Tablet */
 @media (min-width: 1024px) {
+
+    .hero-p {
+        padding: 0 20%;
+    }
+
+    .flex-home-buttons {
+        gap: 82px;
+    }
+
+    .home-button-exhibitions, .home-button-events {
+        margin-bottom: 42px;
+    }
+
+    .h1-heading {
+        margin-bottom: 24px;
+    }
+
+    .home-button-categories {
+        width: 400px;
+        height: 146px;
+        box-shadow: 4px 8px var(--tertiary-color);
+        font-size: 28px;
+        font-weight: 300;
+        padding: 0 24px;
+    }
+
+    .hero-button {
+        font-size: 24px;
+        width: 280px;
+        height: 50px;
+        font-weight: 400;
+    }
 }
 
 /* Desktop */
 @media (min-width: 1512px) {
+
+    .homepage-hero {
+        background-image: url("../assets/desktop/homepage/desktop-hp-hero.jpg");
+        background-position-y: -250px;
+    }
+
+    .hero-heading {
+        font-size: 48px;
+    }
 }

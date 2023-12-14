@@ -156,6 +156,9 @@
     width: 200px;
 }
 
+.logo-a {
+    text-decoration: none;
+}
 
 /*DROPDOWN MENU */
 
@@ -297,6 +300,7 @@
 .copyright {
     margin: 24px 8px;
     text-align: center;
+    width: 280px;
 }
 
 /*HERO*/
@@ -366,11 +370,6 @@
         flex-direction: row;
         justify-content: center;
         gap: 122px;
-    }
-
-    .copyright {
-        width: 300px;
-        text-align: left;
     }
 
 }
