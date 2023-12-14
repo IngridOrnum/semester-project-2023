@@ -16,10 +16,12 @@
 
 <header>
     <div class="header">
-        <div class="logo">
+        <a href="index.html" class="logo-a">
+            <div class="logo">
             <img alt="logo of the community science museum" class="logo-img" src="assets/science.png"/>
             <div class="logo-text">Community Science Museum</div>
         </div>
+        </a>
         <div class="header-mobile" id="header-mobile">
             <!--    DROPDOWN MENU -->
             <span id="burger-menu">
@@ -54,44 +56,65 @@
     
     <main>
         
-<!--        <div class="homepage-hero">-->
-<!--            <div class="homepage-hero-img"><div class="hero-text-box text-content">-->
-<!--                Welcome to Community Science Museum-->
-<!--            </div></div>-->
-<!--            -->
-<!--        </div>-->
+        <div class="homepage-hero">
+            <div class="hero-bg-blur">
+                <div class="hero-text">
+                    <div class="homepage-text hero-heading text-content">
+                        Don't miss out on our newest exhibition!
+                    </div>
+                    <p class="text-content homepage-text hero-p">
+                        Our fantastic exhibition, ‘The Sky Above Us’, explores the night sky and what we can see and
+                        know about the universe around us.
+                    </p>
+                </div>
+            <form action="cosmology.html">
+            <button class="button-universal hero-button floating-button">Let's explore! <i class="fa-solid fa-shuttle-space fa-lg"></i></button>
+            </form>
+            
+            </div>
+        </div>
         
-        <div class="line-divider"></div>
+        <div class="line-divider line line-divider-hero"></div>
         
         <section class="section-buttons-explore">
             <h1 class="h1-heading homepage-text">What do you want to explore next?</h1>
-        <button role="button" class="home-button-categories home-button-exhibitions">
+       
+        <div class="flex-home-buttons">
+        <form action="exhibitions.html">
+            <button role="button" class="home-button-categories home-button-exhibitions">
             <img src="assets/mobile/mobile-icons/mobile-exhibitions-60px.png"/>
             <span>Exhibitions</span>
         </button>
-            
+        </form>
+            <form action="events.html">
             <button role="button" class="home-button-categories home-button-events">
                 <img src="assets/mobile/mobile-icons/mobile-events-60px.png"/>
                 <span>Events</span>
             </button>
-            
+            </form>
+        </div>
+            <div class="flex-home-buttons">
+                <form action="plan-your-visit.html">
             <button role="button" class="home-button-categories home-button-plan-visit">
                 <img src="assets/mobile/mobile-icons/mobile-planvisit-60px.png"/>
                 <span>Plan your visit</span>
             </button>
-           
+                </form>
+           <form action="about.html">
             <button role="button" class="home-button-categories home-button-about">
                 <img src="assets/mobile/mobile-icons/mobile-about-60px.png"/>
                 <span>Abouts</span>
             </button>
+           </form>
+            </div>
         </section>
         
         <div class="line-divider"></div>
         
         <form class="newsletter-signup">
             <h2 class="h2-heading text-content homepage-text">Join our newsletter</h2>
-            <p class="text-content homepage-text">
-                Sign up for our weekly update, so you don´t miss out on anything!
+            <p class="text-content homepage-text signup-text">
+                Sign up for our weekly update, so you don't miss out on anything!
             </p>
             <div class="form-email-colum">
                 <label for="email"></label>
@@ -153,13 +176,14 @@
     </section>
     
     <div class="line-divider"></div>
-    
-    <div class="footer-section">
-    <div class="logo logo-footer">
-        <img class="logo-img" src="assets/science.png" alt="logo of the community science museum"/>
-        <div class="logo-text">Community Science Museum</div>
-    </div>
-    
+        
+        <div class="footer-section footer-bottom">
+            <a href="index.html" class="logo-a">
+                <div class="logo logo-footer">
+                    <img alt="logo of the community science museum" class="logo-img" src="assets/science.png"/>
+                    <div class="logo-text">Community Science Museum</div>
+                </div>
+            </a>
     <div class="copyright footer-text">
         @ Community Science Museum, All rights reserved.</div>
     </div>
