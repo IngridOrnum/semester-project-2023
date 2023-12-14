@@ -1,6 +1,7 @@
 
 body {
     background-color: var(--primary-color);
+    margin: 0;
 }
 
 .homepage-text {
@@ -12,17 +13,43 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    background-image: url("../assets/mobile/homepage/mobile-hp-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 580px;
+    z-index: -1;
+}
+
+.hero-bg-blur {
+    background-color: #6867CF70;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: 1rem;
 }
 
 .hero-heading {
    font-size: 32px;
     font-weight: 500;
-    width: 336px;
+    /*width: 336px;*/
 }
 
 .hero-text {
-    width: 322px;
+    width: 326px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.line-divider-hero {
+    margin: 0;
+}
+
+.hero-text, .hero-bg-blur {
     animation-name: fadeIn;
     animation-duration: 5s;
     animation-fill-mode: both;
@@ -35,29 +62,7 @@ body {
 
 .hero-button {
     margin: 24px 0;
-}
-
-.homepage-hero-img {
-    /*background-image: url("../assets/desktop/homepage/desktop-hero-homepage.png");*/
-    /*background-repeat: no-repeat;*/
-    /*background-position: center;*/
-    /*height: 460px;*/
-    /*width: 100%;*/
-    /*background-size: cover;*/
-}
-
-/*background-size: 100%;*/
-/*height: 500px;*/
-/*width: 100%;*/
-/*z-index: -1;*/
-/*position: absolute;*/
-/*background-repeat: no-repeat;*/
-/*top: 76px;*/
-
-
-
-.line-divider {
-    margin-top: 24px;
+    width: 260px;
 }
 
 .section-buttons-explore {
@@ -74,6 +79,7 @@ body {
 
 .h1-heading {
     width: 360px;
+    margin-top: 24px;
 }
 
 .signup-text {
@@ -125,7 +131,8 @@ body {
 
 @media (min-width: 626px) {
     .homepage-hero {
-
+        background-image: url("../assets/desktop/homepage/desktop-hp-hero.jpg");
+        height: 680px;
     }
 
     .homepage-hero-img {
@@ -144,6 +151,16 @@ body {
         display: flex;
         gap: 24px;
     }
+
+    .hero-heading {
+        font-size: 38px;
+    }
+
+    .hero-text {
+        width: auto;
+        padding: 0 42px;
+    }
+
 }
 
 
