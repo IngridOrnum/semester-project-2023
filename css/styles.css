@@ -171,7 +171,7 @@
 /*DROPDOWN MENU */
 
 .header-mobile {
-    z-index: 20;
+    z-index: 30; !important;
 }
 
 #burger-menu {
@@ -199,6 +199,7 @@
     flex-direction: column;
     align-items: center;
     display: none;
+    z-index: 20;
 }
 
 .menu-open {
@@ -209,7 +210,6 @@
     position: absolute;
     top: 42px;
     right: 42px;
-    z-index: 30;
     display: none;
 }
 
@@ -330,6 +330,24 @@
         height: 300px;
     }
 
+    .footer-grid {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+    }
+
+    .footer-div-links {
+        display: flex;
+        gap: 42px;
+    }
+
+    .footer-bottom {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 80px;
+    }
+
 }
 
 @media (min-width: 800px) {
@@ -381,20 +399,14 @@
     }
 
     .footer-grid {
-        display: flex;
-        justify-content: center;
         gap: 42px;
     }
 
     .footer-div-links {
-        display: flex;
         gap: 62px;
     }
 
     .footer-bottom {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
         gap: 122px;
     }
 

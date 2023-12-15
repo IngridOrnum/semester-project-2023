@@ -1,4 +1,19 @@
 
+/*.gradient-bg {*/
+/*    width: 100%;*/
+/*    height: 100vh;*/
+/*    position: absolute;*/
+/*    background: linear-gradient(45deg,#ee7752,#e73c7e,#23a6d5,#23d5ab);*/
+/*    background-size: 400% 400%;*/
+/*    animation: gradient 10s linear infinite;*/
+/*    animation-direction: alternate;*/
+/*}*/
+
+/*@keyframes gradient {*/
+/*    0% {background-position: 0%}*/
+/*    100% {background-position: 100%}*/
+/*}*/
+
 .bg-top-page {
     background-image: url("../assets/mobile/events/mobile-events-bg-top.jpg");
 }
@@ -27,8 +42,9 @@
 
 .img-events-card {
     width: 100%;
-    height: auto;
+    height: 100%;
 }
+
 
 .text-and-button-events-card {
     display: flex;
@@ -36,18 +52,21 @@
     justify-content: center;
     align-items: center;
     gap: 12px;
+    padding: 0 8px;
 }
 
 .button-events {
     color: var(--secondary-color);
     background-color: var(--events-color);
     width: 230px;
+    margin-bottom: 24px;
 }
 
 
 @media (min-width: 740px) {
     .events-card {
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         width: auto;
         margin-bottom: 42px;
     }
@@ -57,7 +76,7 @@
     }
 
     .button-events {
-        margin-top: 24px;
+        margin-top: 8px;
     }
 
     .paragraph-h1 {
@@ -71,6 +90,17 @@
         background-position-y: -100px;
     }
 
+    .img-events-card img {
+        height: 100%;
+        width: 100%;
+
+    }
+}
+
+@media (min-width: 800px) {
+    .events-card {
+        grid-template-columns: 1fr 2fr;
+    }
 }
 
 /* Tablet */
