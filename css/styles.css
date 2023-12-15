@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400&family=Saira:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Mono&family=Saira:wght@200;300;400;500&display=swap');
 
 :root {
     --primary-color: #6867CF;
@@ -33,20 +33,26 @@
     line-height: 200%;
 }
 
-.h1-heading, .h2-heading {
-    font-family: "Saira", sans-serif;
+.h1-heading {
+    font-family: "Anton", sans-serif;
+    font-size: 52px;
     color: var(--tertiary-color);
+    letter-spacing: 8px;
+}
+
+.h2-heading {
+    font-family: "Saira", sans-serif;
     font-weight: 400;
     text-align: center;
     font-size: 28px;
 }
 
-.icon-and-h1 {
-    display: flex;
-    gap: 12px;
-    align-items: center;
-    justify-content: center;
-}
+/*.icon-and-h1 {*/
+/*    display: flex;*/
+/*    gap: 12px;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*}*/
 
 .paragraph-h1 {
     margin: 12px 0 24px 0;
@@ -94,8 +100,26 @@
 .bg-top-page {
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
+    /*width: 100%;*/
     height: 214px;
+    z-index: -1;
+}
+
+.bg-blur {
+    background-color: #FDFDFD90;
+    height: 100%;
+    width: 100%;
+    animation-name: fadeIn;
+    animation-duration: 5s;
+    animation-fill-mode: both;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
 }
 
 /*NEWSLETTER SIGNUP*/
@@ -171,7 +195,7 @@
 /*DROPDOWN MENU */
 
 .header-mobile {
-    z-index: 30; !important;
+    z-index: 30;
 }
 
 #burger-menu {
@@ -318,7 +342,7 @@
 @media (min-width: 740px) {
 
     .h1-heading {
-        font-size: 42px;
+        font-size: 68px;
     }
 
     .paragraph-h1 {
@@ -414,12 +438,21 @@
         height: 400px;
     }
 
+    .paragraph-h1 {
+        margin: 12px 10% 42px 10%;
+    }
 }
 
 @media (min-width: 1024px) {
 
+    .bg-top-page {
+        height: 380px;
+        background-size: cover;
+    }
+
     .h1-heading {
-        font-size: 62px;
+        font-size: 98px;
+        letter-spacing: 18px;
     }
 
     .paragraph-h1 {
