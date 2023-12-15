@@ -10,9 +10,9 @@
     <title>Community Science Museum - Events</title>
     <link href="css/styles.css" rel="stylesheet" type="text/css"/>
     <link href="css/events.css" rel="stylesheet" type="text/css"/>
+    <script src="https://kit.fontawesome.com/eaf3f254a9.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
     <header>
         <div class="header">
             <div class="logo">
@@ -50,13 +50,13 @@
             </div>
         </div>
     </header>
-    
-    <main>
+    <main class="gradient-bg">
+        <div class="bg-top-page"></div>
         <div class="page-content">
             <div class="icon-and-h1">
                 <picture>
                     <source media="(max-width: 1023px)" srcset="assets/mobile/mobile-icons/mobile-events-40px.png">
-                    <source media="(min-width: 1224px)" srcset="assets/desktop/desktop-icons/desktop-icon-events-80px.png">
+                    <source media="(min-width: 1024px)" srcset="assets/desktop/desktop-icons/desktop-icon-events-80px.png">
                     <img src="assets/mobile/mobile-icons/mobile-events-40px.png"/>
                 </picture>
                 <h1 class="h1-heading text-content">Events</h1>
@@ -66,11 +66,7 @@
             </p>
             <section class="all-cards-events">
             <div class="events-card">
-                <picture class="img-events-card">
-                    <source media="(max-width: 739px)" srcset="assets/mobile/events/mobile-events-professor-card.png">
-                    <source media="(min-width: 740px)" srcset="assets/desktop/events/desktop-events-professor-card.png">
-                    <img src="assets/mobile/events/mobile-events-professor-card.png">
-                </picture>
+                <img class="img-events-card" src="assets/mobile/events/mobile-professor-card.png">
                 <div class="text-and-button-events-card">
                 <div class="h2-heading text-content">Visit from Professor of Aeronautics</div>
                 <p class="text-content">
@@ -80,11 +76,7 @@
                 </div>
             </div>
             <div class="events-card">
-                <picture class="img-events-card">
-                    <source media="(max-width: 1023px)" srcset="assets/mobile/events/mobile-events-nightmuseum-card.png">
-                    <source media="(min-width: 1023px)" srcset="assets/desktop/events/desktop-events-nightatthemuseum-card.png">
-                    <img src="assets/mobile/events/mobile-events-nightmuseum-card.png">
-                </picture>
+                <img class="img-events-card" src="assets/mobile/events/mobile-night-museum.webp">
                 <div class="text-and-button-events-card">
                     <div class="h2-heading text-content">Night at the museum</div>
                     <p class="text-content">
@@ -94,23 +86,75 @@
                 </div>
             </div>
                 <div class="events-card">
-                    <picture class="img-events-card">
-                        <source media="(max-width: 1023px)" srcset="assets/mobile/events/mobile-events-energetica-card.png">
-                        <source media="(min-width: 1023px)" srcset="assets/desktop/events/desktop-events-energetica-card.png">
-                        <img src="assets/mobile/events/mobile-events-energetica-card.png">
-                    </picture>
+                    <img class="img-events-card" src="assets/mobile/events/mobile-energetica.webp">
                     <div class="text-and-button-events-card">
                         <div class="h2-heading text-content">Energetica exhibition</div>
                         <p class="text-content">
-                            On loan from the NEMO Science Museum in Amsterdam, the Energetica exhibition is coming to the Community Science Museum. Experience the power of the elements as we harness them - from solar energy powering lighting, to ‘Wind Island’ that shows how turbines use and control wind to create power.
+                            On loan from the NEMO Science Museum in Amsterdam, the Energetica exhibition is coming to the Community Science Museum. Experience the power of the elements!
                         </p>
                         <button class="button-universal button-events">See dates</button>
                     </div>
                 </div>
             </section>
-            
         </div>
     </main>
-
+    <footer class="footer">
+        <div class="footer-grid">
+            <section class="grid-section-footer footer-section">
+                <div class="footer-heading-icon">
+                    <span class="footer-icon"><i class="fa-regular fa-clock"></i></span>
+                    <span class="footer-text footer-text-header">Opening hours</span>
+                </div>
+                <ul class="footer-text">
+                    <li>Mon: Closed</li>
+                    <li>Tue-Thu: 10:00 - 16:00</li>
+                    <li>Fri: 10:00 - 19:00</li>
+                    <li>Sat: 09:00 - 16:00</li>
+                    <li>Sun: 09:00 - 13:00</li>
+                </ul>
+            </section>
+            <section class="grid-section-footer footer-section">
+                <div class="footer-heading-icon">
+                    <span class="footer-icon"><i class="fa-solid fa-location-dot"></i></span>
+                    <span class="footer-text footer-text-header">Location</span>
+                </div>
+                <ul class="footer-text location-footer-text">
+                    <li>Slottsplassen 1</li>
+                    <li>0010 Oslo</li>
+                </ul>
+            </section>
+            <section class=" grid-section-footer footer-section">
+                <div class="footer-heading-icon">
+                    <span class="footer-icon"><i class="fa-regular fa-paper-plane"></i></span>
+                    <span class="footer-text footer-text-header">Contact</span>
+                </div>
+                <ul class="footer-text">
+                    <li>+47 112 23 344</li>
+                    <li>0010 Oslo</li>
+                </ul>
+            </section>
+        </div>
+        <section class="footer-section footer-section-div-links">
+            <ul class="footer-text footer-div-links">
+                <li>Cookie preferences</li>
+                <li>Terms of service</li>
+                <li>Privacy</li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </section>
+        <div class="line-divider"></div>
+        <div class="footer-section footer-bottom">
+            <a class="logo-a" href="index.html">
+                <div class="logo logo-footer">
+                    <img alt="logo of the community science museum" class="logo-img" src="assets/science.png"/>
+                    <div class="logo-text">Community Science Museum</div>
+                </div>
+            </a>
+            <div class="copyright footer-text">
+                @ Community Science Museum, All rights reserved.
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
 </body>
 </html>
