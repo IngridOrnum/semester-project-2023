@@ -1,3 +1,7 @@
+.bg-top-page {
+    background-image: url(../assets/mobile/about/mobile-about-hero.png);
+}
+
 .all-more-buttons {
     display: flex;
     flex-direction: column;
@@ -33,14 +37,14 @@
     display: flex;
     align-items: center;
 }
-   
+
 #volunteer-content {
     display: none;
     max-width: 800px;
 }
 
 #internship-arrow-icon {
-   display: flex;
+    display: flex;
     align-items: center;
 }
 
@@ -63,15 +67,19 @@
 
 .rotate {
     transform: rotate(180deg);
-    -webkit-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
     transition: all 400ms;
 }
 
-/* Tablet */
-@media (min-width: 1024px) {
+@media (min-width: 550px) {
+    .bg-top-page {
+        background-position-y: -50px;
+    }
 }
 
-/* Desktop */
-@media (min-width: 1512px) {
+/* Tablet */
+@media (min-width: 1024px) {
+    .bg-top-page {
+        background-image: url("../assets/desktop/about/desktop-hero-about.png");
+    }
 }
