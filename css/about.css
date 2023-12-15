@@ -21,6 +21,7 @@
 
 #support-content {
     display: none;
+    max-width: 800px;
 }
 
 #support-arrow-icon {
@@ -35,6 +36,7 @@
    
 #volunteer-content {
     display: none;
+    max-width: 800px;
 }
 
 #internship-arrow-icon {
@@ -44,6 +46,7 @@
 
 #internship-content {
     display: none;
+    max-width: 800px;
 }
 
 .line-divider {
