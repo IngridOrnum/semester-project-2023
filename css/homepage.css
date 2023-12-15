@@ -67,6 +67,7 @@ body {
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     color: var(--tertiary-color);
+    background-color: var(--secondary-color);
 }
 
 @keyframes floating-button {

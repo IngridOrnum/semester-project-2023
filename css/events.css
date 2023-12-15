@@ -1,3 +1,8 @@
+
+.bg-top-page {
+    background-image: url("../assets/mobile/events/mobile-events-bg-top.jpg");
+}
+
 .h2-heading {
     font-size: 24px;
 }
@@ -16,8 +21,8 @@
     border-radius: 8px;
     width: 326px;
     height: auto;
-    padding-bottom: 18px;
     margin-bottom: 24px;
+    object-fit: cover;
 }
 
 .img-events-card {
@@ -62,10 +67,18 @@
         align-items: center;
     }
 
+    .bg-top-page {
+        background-position-y: -100px;
+    }
+
 }
 
 /* Tablet */
 @media (min-width: 1024px) {
+    .bg-top-page {
+        background-position-y: -180px;
+    }
+
     .h2-heading {
         font-size: 28px;
     }
@@ -77,6 +90,14 @@
     .all-cards-events {
         align-items: center;
         justify-content: center;
+    }
+
+}
+
+@media (min-width: 1300px) {
+    .bg-top-page {
+        height: 600px;
+        background-position-y: -180px;
     }
 }
 
