@@ -479,8 +479,28 @@
         gap: 250px;
     }
 
+    .newsletter-signup h2 {
+        font-size: 36px;
+    }
+
+    .newsletter-signup {
+        gap: 24px;
+    }
+
+    .signup-text {
+        font-size: 24px;
+    }
+
+    .form-email-colum input {
+        width: 400px;
+    }
+
 }
 
 @media (min-width: 1512px) {
+
+    .paragraph-h1 {
+        font-size: 24px;
+    }
 
 }
