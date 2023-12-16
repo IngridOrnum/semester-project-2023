@@ -1,3 +1,6 @@
+.bg-top-page {
+    background-image: url("../assets/mobile/cosmology/mobile-cosmology-top-bg.webp");
+}
 
 .space-facts-card {
     background-color: var(--exhibitions-color);
@@ -44,7 +47,7 @@
 .section-img-paragraph-cos {
     display: flex;
     flex-direction: column;
-    margin: 42px 0;
+    margin-bottom: 82px;
     gap: 42px;
 }
 
@@ -55,14 +58,7 @@
     margin: 0;
 }
 
-
 @media (min-width: 700px) {
-
-    .icon-and-h1 {
-        justify-content: left;
-        margin-left: 24px;
-    }
-
     .paragraph-and-facts {
         display: flex;
         gap: 12px;
@@ -84,7 +80,7 @@
 
     .space-facts-card {
         min-width: 280px;
-        height: 360px;
+        height: 460px;
     }
 
    .paragraph-and-img {
@@ -95,22 +91,17 @@
    .paragraph-and-img:nth-child(2) {
        flex-direction: row-reverse;
    }
-
 }
-
-
-
-
 
 /* Tablet */
 @media (min-width: 1024px) {
-
-    .h1-heading {
-        font-size: 40px;
+    .bg-top-page {
+        background-image: url("../assets/desktop/cosmology/desktop-cosmology-top-bg.webp");
+        top: -50px;
     }
 
     .space-facts-card {
-        height: 340px;
+        height: 440px;
         min-width: 360px;
     }
 
@@ -126,18 +117,12 @@
     .paragraph-h1 p {
         text-align: left;
     }
-
 }
 
 
 @media (min-width: 1224px) {
-
-    .h1-heading {
-        font-size: 48px;
-    }
-
-    .facts-card-heading {
-
+    .bg-top-page {
+        background-position-y: -120px;
     }
 }
 
