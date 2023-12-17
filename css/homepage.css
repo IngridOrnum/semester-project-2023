@@ -93,6 +93,10 @@ body {
 }
 
 .h1-heading {
+    font-family: "Saira", sans-serif;
+    font-size: 28px;
+    letter-spacing: 0;
+    font-weight: 400;
     width: 360px;
     margin-top: 24px;
 }
@@ -223,6 +227,7 @@ body {
 
     .h1-heading {
         margin-bottom: 24px;
+        font-size: 34px;
     }
 
     .home-button-categories {
@@ -252,5 +257,9 @@ body {
 
     .hero-heading {
         font-size: 48px;
+    }
+
+    .h1-heading {
+        font-size: 38px;
     }
 }

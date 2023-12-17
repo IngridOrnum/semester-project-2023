@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Mono&family=Saira:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Mono&family=Saira:ital,wght@0,200;0,300;0,400;0,500;1,400&display=swap');
 
 :root {
     --primary-color: #6867CF;
@@ -479,8 +479,28 @@
         gap: 250px;
     }
 
+    .newsletter-signup h2 {
+        font-size: 36px;
+    }
+
+    .newsletter-signup {
+        gap: 24px;
+    }
+
+    .signup-text {
+        font-size: 24px;
+    }
+
+    .form-email-colum input {
+        width: 400px;
+    }
+
 }
 
 @media (min-width: 1512px) {
+
+    .paragraph-h1 {
+        font-size: 24px;
+    }
 
 }

@@ -1,6 +1,11 @@
+.h1-heading {
+    text-align: center;
+    margin-top: -38px;
+}
 
-.icon-and-h1 {
-    margin-bottom: 24px;
+.bg-top-page {
+    background-image: url("../assets/mobile/plan-your-visit/mobile-planvisit-hero.png");
+    background-position-y: -50px;
 }
 
 .page-content {
@@ -80,6 +85,19 @@
 }
 
 @media (min-width: 740px) {
+    .h1-heading {
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 740px) {
+
+    .bg-top-page {
+        background-image: url("../assets/desktop/plan-your-visit/desktop-hero-planyourvisit.png");
+        background-position-y: -2px;
+    }
+
+
 
     .paragraph-h1, .text-border-container {
         text-align: left;
@@ -110,7 +128,11 @@
 
 
 /* Tablet */
-@media (min-width: 1024px) {
+@media (min-width: 800px) {
+
+    .bg-top-page {
+        background-position: center;
+    }
 }
 
 /* Desktop */
