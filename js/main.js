@@ -25,7 +25,7 @@ document.getElementById("header-mobile").addEventListener("click", function () {
 
 // ABOUT
 
-document.getElementById("support-toggle-btn").addEventListener("click", function (event) {
+document.getElementById("support-toggle-btn").addEventListener("click", function () {
     let supportContent = document.getElementById("support-content");
 
     if (supportContent.style.display === "none" || supportContent.style.display === "") {
@@ -39,7 +39,7 @@ document.getElementById("support-toggle-btn").addEventListener("click", function
     }
 });
 
-document.getElementById("volunteer-toggle-btn").addEventListener("click", function (event) {
+document.getElementById("volunteer-toggle-btn").addEventListener("click", function () {
     let volunteerContent = document.getElementById("volunteer-content");
 
     if (volunteerContent.style.display === "none" || volunteerContent.style.display === "") {
@@ -53,7 +53,7 @@ document.getElementById("volunteer-toggle-btn").addEventListener("click", functi
     }
 });
 
-document.getElementById("internship-toggle-btn").addEventListener("click", function (event) {
+document.getElementById("internship-toggle-btn").addEventListener("click", function () {
     let internshipContent = document.getElementById("internship-content");
 
     if (internshipContent.style.display === "none" || internshipContent.style.display === "") {
@@ -66,43 +66,3 @@ document.getElementById("internship-toggle-btn").addEventListener("click", funct
         internshipContent.style.display = "none";
     }
 });
-
-
-//
-// document.getElementById("volunteer-toggle-btn").addEventListener("click", function () {
-//
-//     let volunteerContent = document.getElementById("volunteer-content");
-//     let volunteerUpArrow = document.getElementById("volunteer-arrow-up-icon");
-//     let volunteerDownArrow = document.getElementById("volunteer-arrow-down-icon");
-//
-//     if (volunteerContent.style.display === "none" || volunteerContent.style.display === "") {
-//         volunteerContent.style.display = "block";
-//         volunteerUpArrow.style.display = "block";
-//         volunteerDownArrow.style.display = "none";
-//     }
-//     else {
-//         volunteerContent.style.display = "none";
-//         volunteerUpArrow.style.display = "none";
-//         volunteerDownArrow.style.display = "block";
-//     }
-//
-// });
-//
-// document.getElementById("internship-toggle-btn").addEventListener("click", function () {
-//
-//     let internshipContent = document.getElementById("internship-content");
-//     let internshipUpArrow = document.getElementById("internship-arrow-up-icon");
-//     let internshipDownArrow = document.getElementById("internship-arrow-down-icon");
-//
-//     if (internshipContent.style.display === "none" || internshipContent.style.display === "") {
-//         internshipContent.style.display = "block";
-//         internshipUpArrow.style.display = "block";
-//         internshipDownArrow.style.display = "none";
-//     }
-//     else {
-//         internshipContent.style.display = "none";
-//         internshipUpArrow.style.display = "none";
-//         internshipDownArrow.style.display = "block";
-//     }
-//
-// });

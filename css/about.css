@@ -1,5 +1,6 @@
 .bg-top-page {
-    background-image: url(../assets/mobile/about/mobile-about-hero.png);
+    background-image: url(../assets/mobile/about/mobile-about-top-bg.webp);
+    background-position: center;
 }
 
 .all-more-buttons {
@@ -80,6 +81,21 @@
 /* Tablet */
 @media (min-width: 1024px) {
     .bg-top-page {
-        background-image: url("../assets/desktop/about/desktop-hero-about.png");
+        background-image: url("../assets/desktop/about/desktop-about-top-bg.webp");
     }
+
+    .paragraph-h1 {
+        padding: 0 80px;
+    }
+}
+
+@media (min-width: 1512px) {
+    .bg-top-page {
+        background-position-y: -140px;
+    }
+
+    .paragraph-h1 {
+        padding: 0 150px;
+    }
+
 }

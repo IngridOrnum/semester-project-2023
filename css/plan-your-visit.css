@@ -4,8 +4,8 @@
 }
 
 .bg-top-page {
-    background-image: url("../assets/mobile/plan-your-visit/mobile-planvisit-hero.png");
-    background-position-y: -50px;
+    background-image: url("../assets/mobile/plan-your-visit/mobile-plan-visit-bg.webp");
+    background-position: center;
 }
 
 .page-content {
@@ -93,11 +93,8 @@
 @media (min-width: 740px) {
 
     .bg-top-page {
-        background-image: url("../assets/desktop/plan-your-visit/desktop-hero-planyourvisit.png");
-        background-position-y: -2px;
+        background-image: url("../assets/desktop/plan-your-visit/desktop-plan-visit-bg.webp");
     }
-
-
 
     .paragraph-h1, .text-border-container {
         text-align: left;
@@ -111,7 +108,6 @@
         align-items: flex-start;
     }
 
-
     .page-content--h1 {
         display: flex;
         flex-direction: row;
@@ -124,17 +120,4 @@
     .container-plan-visit {
         width: 326px;
     }
-}
-
-
-/* Tablet */
-@media (min-width: 800px) {
-
-    .bg-top-page {
-        background-position: center;
-    }
-}
-
-/* Desktop */
-@media (min-width: 1512px) {
 }
