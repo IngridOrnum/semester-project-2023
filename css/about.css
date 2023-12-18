@@ -78,7 +78,6 @@
     }
 }
 
-/* Tablet */
 @media (min-width: 1024px) {
     .bg-top-page {
         background-image: url("../assets/desktop/about/desktop-about-top-bg.webp");

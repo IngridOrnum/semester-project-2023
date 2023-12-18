@@ -129,7 +129,6 @@
     }
 }
 
-/* Tablet */
 @media (min-width: 1024px) {
     .bg-top-page {
         background-image: url("../assets/desktop/cosmology/desktop-cosmology-top-bg.webp");

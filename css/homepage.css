@@ -214,9 +214,7 @@ body {
     }
 }
 
-/* Tablet */
 @media (min-width: 1024px) {
-
     .hero-heading {
         font-size: 68px;
     }
@@ -255,7 +253,6 @@ body {
     }
 }
 
-/* Desktop */
 @media (min-width: 1512px) {
 
     .homepage-hero {
