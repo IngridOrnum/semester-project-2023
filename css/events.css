@@ -1,21 +1,6 @@
-
-/*.gradient-bg {*/
-/*    width: 100%;*/
-/*    height: 100vh;*/
-/*    position: absolute;*/
-/*    background: linear-gradient(45deg,#ee7752,#e73c7e,#23a6d5,#23d5ab);*/
-/*    background-size: 400% 400%;*/
-/*    animation: gradient 10s linear infinite;*/
-/*    animation-direction: alternate;*/
-/*}*/
-
-/*@keyframes gradient {*/
-/*    0% {background-position: 0%}*/
-/*    100% {background-position: 100%}*/
-/*}*/
-
 .bg-top-page {
-    background-image: url("../assets/mobile/events/mobile-events-bg-top.jpg");
+    background-image: url("../assets/mobile/events/mobile-events-bg.webp");
+    background-position-y: -20px;
 }
 
 .h2-heading {
@@ -64,7 +49,7 @@
 
 @media (min-width: 740px) {
     .bg-top-page {
-        background-position-y: -100px;
+        background-position-y: -50px;
     }
 
     .events-card {
@@ -104,7 +89,8 @@
 /* Tablet */
 @media (min-width: 1024px) {
     .bg-top-page {
-        background-position-y: -180px;
+        background-image: url("../assets/desktop/events/desktop-events-bg.webp");
+        background-position-y: -30px;
     }
 
     .h2-heading {
@@ -123,8 +109,7 @@
 
 @media (min-width: 1300px) {
     .bg-top-page {
-        height: 600px;
-        background-position-y: -180px;
+        height: 550px;
     }
 
     .paragraph-h1 {

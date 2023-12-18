@@ -1,6 +1,6 @@
 
 .bg-top-page {
-    background-image: url("../assets/mobile/exhibitions/mobile-exhibitions-hero.jpg");
+    background-image: url("../assets/mobile/exhibitions/mobile-exhibitions-top-bg.webp");
 }
 
 .section-cards-exhibition {
@@ -69,8 +69,7 @@
     }
 
     .bg-top-page {
-        background-image: url("../assets/desktop/exhibitions/desktop-exhibitions-hero.jpg");
-        background-position-y: -300px;
+        background-image: url("../assets/desktop/exhibitions/desktop-exhibitions-top-bg.webp");
     }
 }
 
@@ -79,11 +78,6 @@
     .page-content {
         margin: 82px;
     }
-
-    .bg-top-page {
-        background-position-y: -400px;
-    }
-
     .section-cards-exhibition {
         padding: 0 8%;
     }
