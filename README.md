@@ -1,5 +1,5 @@
 # semester-project-2023
-This is the first semester project in Front End Development at Noroff School of Technology.
+This project is the first semester project in Front End Development at Noroff School of Technology.
 
 My project is deployed on Vercel. [Click here to go to the project.](https://semester-project-2023.vercel.app/)
 
@@ -66,7 +66,7 @@ I used Vercel to deploy my project. [Click here to go to the project.](https://s
 The process of planning the project started in Notion, github board and github roadmap because I already was familiar with these tools.
 
 ### Design process
-The first week I planned the project by create pencil sketches of each site, then I did mid-fi wireframes in figma. I also used Notion to write down ideas and reflect on the target audience. In the second week I created my design in figma, where I also declarired color-scheme, font-famliies, gaps and sizes. However, in the end of the week I decided to change all of my design. The reason for this was that I wanted more lighter and childlike colors used in my website. Because of this I was some days behind the dates I had set for myself in the roadmap I created. In total I used about two weeks designing the project. I also did some changes in the design, like swaping photos and adding a new font for h1-headings while coding.
+The first week I planned the project by create pencil sketches of each site, then I did mid-fi wireframes in figma. I also used Notion to write down ideas and reflect on the target audience. In the second week I created my design in figma, where I also declarired color-scheme, font-famliies, gaps and sizes. However, in the end of the week I decided to change all of my design. The reason for this was that I wanted more lighter and childlike colors to be used in my website. Because of this I was some days behind the dates I had set for myself in the roadmap I created. In total I used about two weeks designing the project. I also did some changes in the design, like swaping photos and adding a new font for h1-headings while coding.
 
 I found most of my images on unsplashed, searching for images related to science, museum, children, etc.
 
@@ -76,9 +76,9 @@ I used sourcetree to set up the project and create branches locally on my mac. W
 I started creating the header and the footer, but I didn't complete the burger menu in the header until quite late in the work process because this required javascript and I wanted to prioritize to finish the design. I then created the the content on each page. I added all repeating styles in the "style.css" style-sheet, like gaps, font sizes, button styles, etc. 
 
 ## Reflection
-I am not satisfied with the design I ended up with, even though I already changed it one time. I had many ideas of how the page could look like, but was split between a minamalistic og a maximalistic design.
+I had some difficulty deciding on design. I had many ideas of how the page could look like, but was split between a minamalistic og a maximalistic design.
 
-I also aren't too happy with the work process with the branches, because I merged some of the pages before being completely done with the page. This resulted in some awkward and messy branches, ex: "about-page-fix". If I could do it again, I would make even more detailed issues on the github board for each page. 
+I had some trouble with the work process related to branches in sourcetree, because I merged some of the pages before being completely done with the page. This resulted in some awkward and messy branches, ex: "about-page-fix". If I could do it again, I would make even more detailed issues on the github board for each page. 
 
 
 
