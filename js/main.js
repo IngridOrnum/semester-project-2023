@@ -1,6 +1,3 @@
-
-// HEADER
-
 document.getElementById("header-mobile").addEventListener("click", function () {
     let dropdownContent = document.getElementById("dropdown-content");
     let body = document.body;
@@ -20,10 +17,6 @@ document.getElementById("header-mobile").addEventListener("click", function () {
         burgerBtn.style.display = "block";
     }
 });
-
-
-
-// ABOUT
 
 document.getElementById("support-toggle-btn").addEventListener("click", function () {
     let supportContent = document.getElementById("support-content");
