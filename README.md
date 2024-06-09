@@ -10,15 +10,15 @@ This project was the first semester project while studying front-end development
 1. [Installation and Project Links](#installation)
 2. [Requirements](#requirements) 
 3. [Features](#features) 
-4. [Techn Used](#technical-specifications) 
+4. [Technical Specifications](#technical-specifications) 
 5. [Challenges](#challenges)
 6. [Licence](#licence) 
 
-## Installation and Project Links
+## 1. Installation and Project Links
 The project is deployed on Vercel. [Open the project by clicking here.](https://semester-project-2023.vercel.app/) <br/>
 GitHub Repo: [Project Repo](https://github.com/IngridOrnum/semester-project-2023)
 
-## Requirements
+## 2. Requirements
 The semester project has the following requirements:
 
 1. The site must have a design that appeals to the target audience.
@@ -34,7 +34,7 @@ and colour usage.
 9. The site should show consideration for content strategy and SEO (consider your use of
 meta tags and alt text).
 
-## Features
+## 3. Features
 The website has six responsive pages, with the following features:
 - <strong>Homepage:</strong> animated hero, navigation buttons and the option to join a newsletter.
 - <strong>Exhibitions overview page:</strong> an overview of all the exhibitions available on the science museum.
@@ -43,12 +43,12 @@ The website has six responsive pages, with the following features:
 - <strong>Plan your visit:</strong> an informative page about opening hours, contact information and adress. It also includes information about admission, guided tours, accessibility and food/drink/shop.
 - <strong>About page:</strong> short description of the museum, including the museums values. Dropdown content of support, volunteer and internship. Option to join newsletter.
 
-## Technical specifications
+## 4. Technical specifications
 
-### Tech
+### 4.1 Tech
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) 
 
-### Tools
+### 4.2 Tools
 - Figma: I used figma to design the entire project. 
 - Webstorm: the code editing software I used.
 - Github: I github board and roadmap to keep a structured work flow. I also used Github to commit and merge to main branch.
@@ -60,11 +60,11 @@ The website has six responsive pages, with the following features:
 - Flaticon: Some icons used on the page is from [Flaticon.](https://www.flaticon.com/)
 - Notion: I used Notion, a web application for taking notes.
 
-## Challenges
+## 5. Challenges
 I had some difficulty deciding on design. I had many ideas regarding the design, but was split between a minimalistic og a more maximalistic design. I ended up with a design with more colours and childlike design with the target audience in mind, which were children.
 
 I also had some trouble with the work process related to branches in SourceTree, because I by mistake merged some of the branches before being completely done with the issue. This resulted in what can look like a messy workflow. As a result of this I learned that I must make even more detailed issues on the GitHub board for each page. 
 
-## Licence
+## 6. Licence
 This project is licenced under the MIT Licence.
 
