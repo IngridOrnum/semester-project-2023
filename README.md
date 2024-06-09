@@ -15,6 +15,8 @@ This project was the first semester project while studying front-end development
   - [Design process](#design-process)
   - [Production process](#production-process)
 - [Reflection](#reflection)
+- [Deployment and Project Links](#deployment-and-project-links)
+- [Licence](#licence)
 
 ## Requirements
 The semester project have the following requirements:
@@ -57,9 +59,6 @@ The website has six responsive pages, with the following features:
 - Fontawesome: Most of the icons used on the page is from [Fontawesome.](https://fontawesome.com/icons)
 - Flaticon: Some icons used on the page is from [Flaticon.](https://www.flaticon.com/)
 - Notion: I used Notion, a web application for taking notes.
-
-### Deployment 
-I used Vercel to deploy my project. [Click here to go to the project.](https://semester-project-2023.vercel.app/)
   
 ## Process
 The process of planning the project started in Notion, github board and github roadmap because I already was familiar with these tools.
@@ -77,5 +76,9 @@ I had some difficulty deciding on design. I had many ideas of how the page could
 
 I had some trouble with the work process related to branches in sourcetree, because I by mistake merged some of the branches before being completely done with the page. This resulted what can look like a messy workflow. As a result of this I learned that I must make even more detailed issues on the github board for each page. 
 
+## Deployment and Project Links
+* I used Vercel to deploy my project. [Click here to go to the project.](https://semester-project-2023.vercel.app/)
 
+## Licence
+This project is licenced under the MIT licence.
 
