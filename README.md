@@ -7,12 +7,12 @@ This webpage serves as the online presence for the fictional "Community Science 
 This project was the first semester project while studying front-end development at Noroff School of Technology and Digital Media.
 
 ## Table of contents:
-1.0 [Installation](#installation)
-2.0 [Requirements](#requirements)
-3.0 [Features](#features)
-4.0 [Techn Used](#technical-specifications)
-5.0 [Challenges](#challenges)
-9.0 [Licence](#licence)
+1.0 [Installation](#installation) <br/>
+2.0 [Requirements](#requirements) <br/>
+3.0 [Features](#features) <br/>
+4.0 [Techn Used](#technical-specifications) <br/>
+5.0 [Challenges](#challenges) <br/>
+9.0 [Licence](#licence) <br/>
 
 ## Installation
 The project is deployed on Vercel. [Open the project by clicking here.](https://semester-project-2023.vercel.app/)
