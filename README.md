@@ -1,7 +1,10 @@
-# semester-project-2023
-This project is the first semester project in Front End Development at Noroff School of Technology.
+# Community Science Museum - Semester Project
 
-My project is deployed on Vercel. [Click here to go to the project.](https://semester-project-2023.vercel.app/)
+
+## Project Description
+This webpage serves as the online presence for the fictional "Community Science Museum". The page aims to engage visitors by promoting upcoming events and providing previews of current exhibitions. Users can find essential information such as the museum's location, opening hours, contact details, and admission fees.
+
+This project was the first semester project while studying front-end development at Noroff School of Technology and Digital Media.
 
 ## Table of contents:
 - [Requirements](#requirements)
