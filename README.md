@@ -2,24 +2,23 @@
 
 
 ## Project Description
-This webpage serves as the online presence for the fictional "Community Science Museum". The page aims to engage visitors by promoting upcoming events and providing previews of current exhibitions. Users can find essential information such as the museum's location, opening hours, contact details, and admission fees.
+This webpage serves as the online presence for the fictional "Community Science Museum". The project aims to engage visitors by promoting upcoming events and providing previews of current exhibitions. Users can find essential information such as the museum's location, opening hours, contact details, and admission fees. The website features playful colours designed to intrigue the target audience - children. 
 
 This project was the first semester project while studying front-end development at Noroff School of Technology and Digital Media.
 
 ## Table of contents:
-- [Requirements](#requirements)
-- [Features](#features)
-- [Techn Used](#technical-specifications)
-- [Deployment](#deployment)
-- [Process](#process)
-  - [Design process](#design-process)
-  - [Production process](#production-process)
-- [Reflection](#reflection)
-- [Deployment and Project Links](#deployment-and-project-links)
-- [Licence](#licence)
+1.0 [Installation](#installation)
+2.0 [Requirements](#requirements)
+3.0 [Features](#features)
+4.0 [Techn Used](#technical-specifications)
+5.0 [Challenges](#challenges)
+9.0 [Licence](#licence)
+
+## Installation
+The project is deployed on Vercel. [Open the project by clicking here.](https://semester-project-2023.vercel.app/)
 
 ## Requirements
-The semester project have the following requirements:
+The semester project has the following requirements:
 
 1. The site must have a design that appeals to the target audience.
 2. The site must have at least 4-6 pages.
@@ -37,10 +36,10 @@ meta tags and alt text).
 ## Features
 The website has six responsive pages, with the following features:
 - <strong>Homepage:</strong> animated hero, navigation buttons and the option to join a newsletter.
-- <strong>Exhibitions overview page:</strong> an overview of all the exhibitions avaliable on the science museum.
+- <strong>Exhibitions overview page:</strong> an overview of all the exhibitions available on the science museum.
 - <strong>Cosmology exhibition:</strong> a description of one of the exhibitions, cosmology exhibition, with more images.
-- <strong>Events overview page:</strong> an overview of future events avaliable on the science museum.
-- <strong>Plan your visit:</strong> an informative page about opening hours, contact informationm and adress. It also includes information about admission, guided tours, accessibility and food/drink/shop.
+- <strong>Events overview page:</strong> an overview of future events available on the science museum.
+- <strong>Plan your visit:</strong> an informative page about opening hours, contact information and adress. It also includes information about admission, guided tours, accessibility and food/drink/shop.
 - <strong>About page:</strong> short description of the museum, including the museums values. Dropdown content of support, volunteer and internship. Option to join newsletter.
 
 ## Technical specifications
@@ -59,26 +58,12 @@ The website has six responsive pages, with the following features:
 - Fontawesome: Most of the icons used on the page is from [Fontawesome.](https://fontawesome.com/icons)
 - Flaticon: Some icons used on the page is from [Flaticon.](https://www.flaticon.com/)
 - Notion: I used Notion, a web application for taking notes.
-  
-## Process
-The process of planning the project started in Notion, github board and github roadmap because I already was familiar with these tools.
 
-### Design process
-The first week I planned the project by create pencil sketches of each site. Then I did mid-fi wireframes in figma. I also used Notion to write down ideas and reflect on the target audience. In the second week I created my design in figma, where I also decided on color-scheme, font-famliies, gaps and sizes. However, in the end of the week I decided to change most of my design. The reason for this was that I wanted more lighter and childlike colors to be used in my website, for a better fit for the target audience.
+## Challenges
+I had some difficulty deciding on design. I had many ideas regarding the design, but was split between a minimalistic og a more maximalistic design. I ended up with a design with more colours and childlike design with the target audience in mind, which were children.
 
-I found most of my images on unsplashed, searching for images related to science, museum, children, etc.
-
-### Production process
-I used sourcetree to set up the project and create branches locally on my mac. While working on the code, I regularly committed changes and pushed to Github. When finished with a branch, I merged with the main branch and pulled the changes to the main branch locally on my computer using sourcetree. 
-
-## Reflection
-I had some difficulty deciding on design. I had many ideas of how the page could look like, but was split between a minamalistic og a maximalistic design.
-
-I had some trouble with the work process related to branches in sourcetree, because I by mistake merged some of the branches before being completely done with the page. This resulted what can look like a messy workflow. As a result of this I learned that I must make even more detailed issues on the github board for each page. 
-
-## Deployment and Project Links
-* I used Vercel to deploy my project. [Click here to go to the project.](https://semester-project-2023.vercel.app/)
+I also had some trouble with the work process related to branches in SourceTree, because I by mistake merged some of the branches before being completely done with the issue. This resulted in what can look like a messy workflow. As a result of this I learned that I must make even more detailed issues on the GitHub board for each page. 
 
 ## Licence
-This project is licenced under the MIT licence.
+This project is licenced under the MIT Licence.
 
