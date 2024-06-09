@@ -10,8 +10,6 @@
     --about-color: #DF9506;
 }
 
-/*GAP, SPACING AND PADDING*/
-
 * {
     margin: 0;
     box-sizing: border-box;
@@ -20,8 +18,6 @@
 .page-content {
     margin: 24px;
 }
-
-/*TYPOGRAPHY*/
 
 .text-content, .homepage-text {
     font-family: "Saira", sans-serif;
@@ -47,18 +43,9 @@
     font-size: 28px;
 }
 
-/*.icon-and-h1 {*/
-/*    display: flex;*/
-/*    gap: 12px;*/
-/*    align-items: center;*/
-/*    justify-content: center;*/
-/*}*/
-
 .paragraph-h1 {
     margin: 12px 0 24px 0;
 }
-
-/*BUTTONS*/
 
 .button-universal {
     height: 44px;
@@ -79,16 +66,12 @@
     box-shadow: 0 0;
 }
 
-/*LINE DIVIDERS*/
-
 .line-divider {
     background-color: var(--tertiary-color);
     height: 4px;
     width: auto;
     margin: 24px;
 }
-
-/*OTHER DESIGN*/
 
 .box-shadow {
     border-radius: 8px;
@@ -122,8 +105,6 @@
     100% {opacity: 1;}
 }
 
-/*NEWSLETTER SIGNUP*/
-
 .newsletter-signup {
     display: flex;
     flex-direction: column;
@@ -152,8 +133,6 @@
 .button-email:hover {
     box-shadow: 0 0;
 }
-
-/*HEADER*/
 
 .header {
     background-color: var(--primary-color);
@@ -190,9 +169,6 @@
 .logo-a {
     text-decoration: none;
 }
-
-
-/*DROPDOWN MENU */
 
 .header-mobile {
     z-index: 30;
@@ -262,8 +238,6 @@
     text-decoration: none;
 }
 
-/*FOOTER*/
-
 .footer {
     background-color: var(--primary-color);
     padding: 42px 0;
@@ -331,13 +305,10 @@
     width: 280px;
 }
 
-/*HERO*/
-
 .hero-mobile {
     height: auto;
     width: 100%;
 }
-
 
 @media (min-width: 740px) {
 
@@ -347,7 +318,6 @@
 
     .paragraph-h1 {
         font-size: 20px;
-        /*margin-bottom: 62px;*/
     }
 
     .bg-top-page {
@@ -371,12 +341,9 @@
         justify-content: center;
         gap: 80px;
     }
-
 }
 
 @media (min-width: 800px) {
-
-    /*HEADER*/
     .header-mobile {
         display: none;
     }
@@ -444,7 +411,6 @@
 }
 
 @media (min-width: 1024px) {
-
     .bg-top-page {
         height: 380px;
         background-size: cover;
