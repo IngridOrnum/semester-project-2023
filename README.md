@@ -35,22 +35,20 @@ and colour usage.
 meta tags and alt text).
 
 ## Features
-The project features six responsive page. These are the following:
-- Homepage: animated hero, navigation buttons and the option to join newsletter.
-- Exhibitions overview page: an overview of all the exhibitions avaliable on the science museum.
-- Cosmology exhibition: a description of one of the exhibitions, cosmology exhibition, with more images.
-- Events overview page: an overview of future events avaliable on the science museum.
-- Plan your visit: an informative page about opening hours, contact informationm and adress. It also includes information about admission, guided tours, accessibility and food/drink/shop.
-- About page: short description of the museum, including the museums values. Dropdown content of support, volunteer and internship. Option to join newsletter.
+The website has six responsive pages, with the following features:
+- <strong>Homepage:</strong> animated hero, navigation buttons and the option to join a newsletter.
+- <strong>Exhibitions overview page:</strong> an overview of all the exhibitions avaliable on the science museum.
+- <strong>Cosmology exhibition:</strong> a description of one of the exhibitions, cosmology exhibition, with more images.
+- <strong>Events overview page:</strong> an overview of future events avaliable on the science museum.
+- <strong>Plan your visit:</strong> an informative page about opening hours, contact informationm and adress. It also includes information about admission, guided tours, accessibility and food/drink/shop.
+- <strong>About page:</strong> short description of the museum, including the museums values. Dropdown content of support, volunteer and internship. Option to join newsletter.
 
 ## Technical specifications
 
 ### Tech
-- HTML
-- CSS
-- Javascript: I used Javascript to create the burger menu in the header and dropdown content in the "about page".
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) 
 
-### Tools used
+### Tools
 - Figma: I used figma to design the entire project. 
 - Webstorm: the code editing software I used.
 - Github: I github board and roadmap to keep a structured work flow. I also used Github to commit and merge to main branch.
@@ -69,19 +67,17 @@ I used Vercel to deploy my project. [Click here to go to the project.](https://s
 The process of planning the project started in Notion, github board and github roadmap because I already was familiar with these tools.
 
 ### Design process
-The first week I planned the project by create pencil sketches of each site, then I did mid-fi wireframes in figma. I also used Notion to write down ideas and reflect on the target audience. In the second week I created my design in figma, where I also declarired color-scheme, font-famliies, gaps and sizes. However, in the end of the week I decided to change all of my design. The reason for this was that I wanted more lighter and childlike colors to be used in my website. Because of this I was some days behind the dates I had set for myself in the roadmap I created. In total I used about two weeks designing the project. I also did some changes in the design, like swaping photos and adding a new font for h1-headings while coding.
+The first week I planned the project by create pencil sketches of each site. Then I did mid-fi wireframes in figma. I also used Notion to write down ideas and reflect on the target audience. In the second week I created my design in figma, where I also decided on color-scheme, font-famliies, gaps and sizes. However, in the end of the week I decided to change most of my design. The reason for this was that I wanted more lighter and childlike colors to be used in my website, for a better fit for the target audience.
 
 I found most of my images on unsplashed, searching for images related to science, museum, children, etc.
 
 ### Production process
 I used sourcetree to set up the project and create branches locally on my mac. While working on the code, I regularly committed changes and pushed to Github. When finished with a branch, I merged with the main branch and pulled the changes to the main branch locally on my computer using sourcetree. 
 
-I started creating the header and the footer, but I didn't complete the burger menu in the header until quite late in the work process because this required javascript and I wanted to prioritize to finish the design. I then created the the content on each page. I added all repeating styles in the "style.css" style-sheet, like gaps, font sizes, button styles, etc. 
-
 ## Reflection
 I had some difficulty deciding on design. I had many ideas of how the page could look like, but was split between a minamalistic og a maximalistic design.
 
-I had some trouble with the work process related to branches in sourcetree, because I merged some of the pages before being completely done with the page. This resulted in some awkward and messy branches, ex: "about-page-fix". If I could do it again, I would make even more detailed issues on the github board for each page. 
+I had some trouble with the work process related to branches in sourcetree, because I by mistake merged some of the branches before being completely done with the page. This resulted what can look like a messy workflow. As a result of this I learned that I must make even more detailed issues on the github board for each page. 
 
 
 
