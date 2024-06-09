@@ -7,18 +7,18 @@ This webpage serves as the online presence for the fictional "Community Science 
 This project was the first semester project while studying front-end development at Noroff School of Technology and Digital Media.
 
 ## Table of contents:
-1. [Installation and Project Links](#installation)
-2. [Requirements](#requirements) 
-3. [Features](#features) 
-4. [Technical Specifications](#technical-specifications) 
-5. [Challenges](#challenges)
-6. [Licence](#licence) 
+* [Installation and Project Links](#installation)
+* [Requirements](#requirements)
+* [Features](#features)
+* [Technical Specifications](#technical-specifications)
+* [Challenges](#challenges)
+* [Licence](#licence) 
 
-## 1. Installation and Project Links
+## Installation and Project Links
 The project is deployed on Vercel. [Open the project by clicking here.](https://semester-project-2023.vercel.app/) <br/>
 GitHub Repo: [Project Repo](https://github.com/IngridOrnum/semester-project-2023)
 
-## 2. Requirements
+## Requirements
 The semester project has the following requirements:
 
 1. The site must have a design that appeals to the target audience.
@@ -34,7 +34,7 @@ and colour usage.
 9. The site should show consideration for content strategy and SEO (consider your use of
 meta tags and alt text).
 
-## 3. Features
+## Features
 The website has six responsive pages, with the following features:
 - <strong>Homepage:</strong> animated hero, navigation buttons and the option to join a newsletter.
 - <strong>Exhibitions overview page:</strong> an overview of all the exhibitions available on the science museum.
@@ -43,12 +43,12 @@ The website has six responsive pages, with the following features:
 - <strong>Plan your visit:</strong> an informative page about opening hours, contact information and adress. It also includes information about admission, guided tours, accessibility and food/drink/shop.
 - <strong>About page:</strong> short description of the museum, including the museums values. Dropdown content of support, volunteer and internship. Option to join newsletter.
 
-## 4. Technical specifications
+## Technical specifications
 
-### 4.1 Tech
+### Tech
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) 
 
-### 4.2 Tools
+### Tools
 - Figma: I used figma to design the entire project. 
 - Webstorm: the code editing software I used.
 - Github: I github board and roadmap to keep a structured work flow. I also used Github to commit and merge to main branch.
@@ -60,11 +60,11 @@ The website has six responsive pages, with the following features:
 - Flaticon: Some icons used on the page is from [Flaticon.](https://www.flaticon.com/)
 - Notion: I used Notion, a web application for taking notes.
 
-## 5. Challenges
+## Challenges
 I had some difficulty deciding on design. I had many ideas regarding the design, but was split between a minimalistic og a more maximalistic design. I ended up with a design with more colours and childlike design with the target audience in mind, which were children.
 
 I also had some trouble with the work process related to branches in SourceTree, because I by mistake merged some of the branches before being completely done with the issue. This resulted in what can look like a messy workflow. As a result of this I learned that I must make even more detailed issues on the GitHub board for each page. 
 
-## 6. Licence
+## Licence
 This project is licenced under the MIT Licence.
 
