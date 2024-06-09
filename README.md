@@ -16,7 +16,7 @@ This project was the first semester project while studying front-end development
 
 ## Installation and Project Links
 The project is deployed on Vercel. [Open the project by clicking here.](https://semester-project-2023.vercel.app/) <br/>
-GitHub repp: [Open the repo.](https://github.com/IngridOrnum/semester-project-2023)
+GitHub Repo: [Project Repo](https://github.com/IngridOrnum/semester-project-2023)
 
 ## Requirements
 The semester project has the following requirements:
