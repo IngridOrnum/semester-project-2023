@@ -9,10 +9,8 @@ This project was the first semester project while studying front-end development
 ## Table of contents:
 - [Requirements](#requirements)
 - [Features](#features)
-- [Technical specifications](#technical-specifications)
-  - [Tech](#tech)
-  - [Tools used](#tools-used)
-  - [Deployment](#deployment)
+- [Techn Used](#technical-specifications)
+- [Deployment](#deployment)
 - [Process](#process)
   - [Design process](#design-process)
   - [Production process](#production-process)
